@@ -60,7 +60,7 @@ const job = new Job({
 workflow.addJob({ id: "build-and-test", job });
 
 // Write the workflow to a file
-workflow.writeToFile();
+await workflow.writeToFile();
 ```
 
 ### Structure
